@@ -22,7 +22,7 @@ export class RegistroAutomotor{
 
     //getters
     public getListaAutos(): Auto[] {
-        const copiaAutos : Auto[] = this.listaAutos.map(libro => ({...libro}) as Auto); //* forma implementada por mauricio en la clase el lunes
+        const copiaAutos : Auto[] = this.listaAutos.map(libro => ({...libro}) as Auto); //
         console.log("Autos:");
         return copiaAutos;
     }
